@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    padding: 15px 0;
+    background-color: rgb(107, 111, 114);
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid rgb(189, 231, 189);
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid rgb(109, 157, 219);
+    width: 80%;
+}
+
+.logo-content-img {
+    border: solid 0px #aac1d6;
+}
+
+.emp-text {
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: #f0e222c2;
+    text-transform: capitalize;
+}
+
+.emp-payroll {
+    color:  #115029c2;
+}
+
+* {
+    box-sizing: border-box;
+}
+/*--UC2--*/
+
+.form-content {
+    min-height: calc(100% -80px);
+    background-color: #e2cdcd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid rgb(69, 83, 69);
+}
+
+.forn {
+    width: 65%;
+    padding: 44px 60px;
+    background: #a59c9c 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #1b0e1f29;
+    border: 1px solid #797777;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form-head {
+    font: normal normal bold 22px/37px Roboto;
+    letter-spacing: 0px;
+    color: #263646;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 20px;
+    padding-left: 40%;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0px solid rgb(128, 134, 128);
+}
+
+.label {
+    min-width: 140px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.text {
+    font-size: 16px;
+    color: #011120;
+    opacity: 1;
+    font-family: Roboto;
+}                                  
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(163, 159, 159);
+    border-radius: 4px;
+    resize: vertical;
+} 
+
+.profile-radio-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-radio-content > label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
